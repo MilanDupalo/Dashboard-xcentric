@@ -1,0 +1,25 @@
+.navbar {
+  width: 320px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+  &-item {
+    height: 50px;
+    width: 270px;
+    border-radius: 12px;
+    background: red;
+    display: flex;
+    padding-left: 40px;
+    margin-top: 1px;
+    align-items: center;
+    color: $dark-grey;
+    background: white;
+  }
+}
+
+.active-nav-item {
+  background: $grey-bg;
+  color: $blue;
+}

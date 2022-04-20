@@ -1,0 +1,25 @@
+.search-icon {
+  color: $dark-grey;
+  font-size: 16px;
+}
+
+.fa-bell {
+  position: relative;
+  font-size: 22px;
+}
+
+.fa-bell::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  position: absolute;
+  background: $purple;
+  top: -3px;
+  right: -5px;
+}
+
+.nav-icon {
+  margin-right: 50px;
+  width: 20px;
+}
