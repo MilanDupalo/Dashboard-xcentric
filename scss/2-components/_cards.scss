@@ -1,0 +1,52 @@
+.main-content-total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &-card {
+    width: 32%;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 0 26px;
+    position: relative;
+    &-description {
+      margin-left: 16px;
+      &-title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: $dark-grey;
+      }
+      &-total {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        color: $dark;
+      }
+    }
+    &-percent {
+      position: absolute;
+      right: 25px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 31px;
+    }
+  }
+}
+
+// modifikatori za procente top kartica
+
+.visitor--percent {
+  color: $blue;
+}
+
+.user--percent {
+  color: $red;
+}
+
+.activity--percent {
+  color: $purple;
+}
