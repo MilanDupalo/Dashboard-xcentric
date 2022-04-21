@@ -50,3 +50,45 @@
 .activity--percent {
   color: $purple;
 }
+
+// user review container and cards
+
+.main-content-review-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &-card {
+    width: 32%;
+    background: white;
+    border-radius: 12px;
+    padding: 20px 25px 30px 20px;
+    &-header {
+      display: flex;
+      flex-direction: row;
+      &-user {
+        margin-left: 13px;
+        &-name {
+          font-size: 14px;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 18px;
+          color: $dark-2;
+        }
+        &-time {
+          font-size: 14px;
+          color: $dark-grey;
+          font-weight: 400;
+          line-height: 18px;
+        }
+      }
+    }
+    &-description {
+      margin: 15px 0;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: $dark-2;
+    }
+  }
+}
