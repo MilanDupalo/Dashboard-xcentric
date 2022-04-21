@@ -33,3 +33,48 @@
     }
   }
 }
+
+.aside-message {
+  margin-top: 30px;
+  &-user {
+    display: flex;
+    border-bottom: 1px solid $border;
+    margin-bottom: 24px;
+    &-data {
+      margin-left: 10px;
+      &-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        color: $dark;
+      }
+      &-post {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: $dark-grey;
+        margin: 6px 0 20px 0;
+      }
+    }
+  }
+}
+
+.aside-contact-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  &-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    &-name {
+      margin-left: 10px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+      color: $dark;
+    }
+  }
+}

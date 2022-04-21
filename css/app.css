@@ -10,6 +10,12 @@ body {
 a {
   text-decoration: none; }
 
+.margin-top {
+  margin-top: 50px; }
+
+.no--border {
+  border: none !important; }
+
 .logo {
   margin-left: 75px; }
 
@@ -108,6 +114,9 @@ a {
   margin-left: 30px; }
   .header--search--input {
     width: 600px; }
+
+.aside--search {
+  margin-top: 15px; }
 
 .timeline {
   width: 2px;
@@ -263,6 +272,43 @@ a {
       color: #98a4b5;
       margin-top: 8px; }
 
+.aside-message {
+  margin-top: 30px; }
+  .aside-message-user {
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 24px; }
+    .aside-message-user-data {
+      margin-left: 10px; }
+      .aside-message-user-data-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        color: #303e65; }
+      .aside-message-user-data-post {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #98a4b5;
+        margin: 6px 0 20px 0; }
+
+.aside-contact-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; }
+  .aside-contact-list-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-top: 10px; }
+    .aside-contact-list-user-name {
+      margin-left: 10px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+      color: #303e65; }
+
 .search-icon {
   color: #98a4b5;
   font-size: 16px; }
@@ -298,5 +344,11 @@ a {
   color: #56b5d2;
   position: relative;
   right: 7px; }
+
+.fa-message {
+  color: #98a4b5;
+  font-size: 25px;
+  position: absolute;
+  right: 0; }
 
 /*# sourceMappingURL=app.css.map */
