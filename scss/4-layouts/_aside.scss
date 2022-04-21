@@ -1,5 +1,35 @@
-.main-aside {
-  width: 400px;
+.aside {
+  width: 500px;
   height: 100vh;
-  background: orange;
+  padding: 15px;
+  background: white;
+  margin-top: 14px;
+  &-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.aside-activity-content {
+  display: flex;
+  flex-direction: row;
+  &-text {
+    margin-left: 20px;
+    &-description {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      color: $dark-2;
+      margin-top: 25px;
+    }
+    &-date {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: $dark-grey;
+      margin-top: 8px;
+    }
+  }
 }
