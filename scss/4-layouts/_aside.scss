@@ -1,6 +1,5 @@
 .aside {
   width: 500px;
-  height: 100vh;
   padding: 15px;
   background: white;
   margin-top: 14px;
@@ -82,5 +81,16 @@
 @media screen and (max-width: 1000px) {
   .aside {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .aside {
+    display: block;
+    width: 100%;
+  }
+
+  .main {
+    display: block;
   }
 }

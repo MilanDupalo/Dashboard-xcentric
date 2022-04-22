@@ -1,9 +1,15 @@
 .timeline {
   width: 2px;
-  height: 243px;
+  height: 200px;
   background-color: #dddddd;
   margin-top: 31px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (min-width: 400px) and (max-width: 1000px) {
+  .timeline {
+    height: 170px;
+  }
 }

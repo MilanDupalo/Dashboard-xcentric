@@ -142,13 +142,16 @@ a {
     margin-left: 5px; } }
 .timeline {
   width: 2px;
-  height: 243px;
+  height: 200px;
   background-color: #dddddd;
   margin-top: 31px;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
 
+@media (min-width: 400px) and (max-width: 1000px) {
+  .timeline {
+    height: 170px; } }
 .aside-btn {
   background-color: #56b5d2;
   color: white;
@@ -322,14 +325,23 @@ a {
   .navbar-item-link {
     font-size: 12px; } }
 @media (min-width: 800px) and (max-width: 1000px) {
-  .navbar-item {
-    width: auto; }
-
-  .navbar-item-link {
-    display: none; } }
-@media screen and (max-width: 800px) {
   .navbar {
-    width: auto; }
+    width: 200px; }
+
+  .navbar-item {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; }
+
+  .active-nav-item {
+    background: transparent; } }
+@media screen and (max-width: 1000px) {
+  .navbar {
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
 
   .navbar-item {
     width: auto;
@@ -342,7 +354,6 @@ a {
     background: transparent; } }
 .aside {
   width: 500px;
-  height: 100vh;
   padding: 15px;
   background: white;
   margin-top: 14px; }
@@ -410,6 +421,13 @@ a {
 @media screen and (max-width: 1000px) {
   .aside {
     display: none; } }
+@media screen and (max-width: 1000px) {
+  .aside {
+    display: block;
+    width: 100%; }
+
+  .main {
+    display: block; } }
 .search-icon {
   color: #98a4b5;
   font-size: 16px; }
@@ -462,5 +480,8 @@ a {
 
   .fa-bell {
     font-size: 16px; } }
+@media (min-width: 800px) and (max-width: 1000px) {
+  .nav-icon {
+    margin-right: 10px; } }
 
 /*# sourceMappingURL=app.css.map */

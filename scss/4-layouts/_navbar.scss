@@ -41,18 +41,26 @@
 }
 
 @media (min-width: 800px) and (max-width: 1000px) {
-  .navbar-item {
-    width: auto;
+  .navbar {
+    width: 200px;
   }
-
-  .navbar-item-link {
-    display: none;
+  .navbar-item {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .active-nav-item {
+    background: transparent;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .navbar {
     width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .navbar-item {
