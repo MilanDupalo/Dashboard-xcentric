@@ -9,7 +9,6 @@
     height: 50px;
     width: 270px;
     border-radius: 12px;
-    background: red;
     display: flex;
     padding-left: 40px;
     margin-top: 1px;
@@ -22,4 +21,50 @@
 .active-nav-item {
   background: $grey-bg;
   color: $blue;
+}
+
+@media (min-width: 1000px) and (max-width: 1440px) {
+  .navbar {
+    width: 200px;
+    padding: 0 8px;
+  }
+
+  .navbar-item {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+  }
+
+  .navbar-item-link {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .navbar-item {
+    width: auto;
+  }
+
+  .navbar-item-link {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    width: auto;
+  }
+
+  .navbar-item {
+    width: auto;
+    padding-left: 0;
+  }
+
+  .navbar-item-link {
+    display: none;
+  }
+
+  .active-nav-item {
+    background: transparent;
+  }
 }

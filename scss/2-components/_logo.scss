@@ -1,3 +1,13 @@
 .logo {
   margin-left: 75px;
+  &-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 10px;
+    width: 100px;
+  }
 }

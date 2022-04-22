@@ -56,3 +56,54 @@
     margin: 16px 0;
   }
 }
+
+@media (min-width: 800px) and (max-width: 1300px) {
+  .main-content-total-card-description-total {
+    font-size: 18px;
+  }
+
+  .main-content-total {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .main-content-total-card {
+    width: 48%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-content {
+    padding: 5px 10px;
+  }
+  .main-content-total {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main-content-total-card {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .main-content-graphs {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .main-content-graps-img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .main-content-review-content {
+    flex-direction: column;
+  }
+
+  .main-content-review-content-card {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

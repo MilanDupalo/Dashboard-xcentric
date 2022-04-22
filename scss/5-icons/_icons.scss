@@ -47,3 +47,20 @@
   position: absolute;
   right: 0;
 }
+
+@media (min-width: 1000px) and (max-width: 1440px) {
+  .nav-icon {
+    margin-right: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-icon {
+    margin-right: 0;
+  }
+
+  .fa-bell {
+    font-size: 16px;
+  }
+}
